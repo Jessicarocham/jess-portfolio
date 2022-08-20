@@ -1,6 +1,8 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #66bfbf;
+  --secondary-color: #eaf6f6;
+  --third-color: #6c63ff;
+  --fourth-color: #f76b8a;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -44,6 +46,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+nav {
+  background: #eaf6f6;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -86,7 +91,9 @@ img {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+.nav-link {
+  color: #f76b8a;
+}
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
