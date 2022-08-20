@@ -41,6 +41,7 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+
 img {
   max-width: 100‰;
   height: auto;
@@ -58,6 +59,10 @@ nav {
 .projects-h1 {
   margin-top: 100px;
 }
+.h2-contact {
+  margin-top: 100px;
+  font-size: 40px;
+}
 
 .navigation-links {
   display: flex;
@@ -73,8 +78,11 @@ nav {
   text-decoration: none;
   text-transform: capitalize;
 }
-
 .contact-link {
+  color: #66bfbf;
+  text-decoration: none;
+}
+.contact-link:hover {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -100,6 +108,10 @@ nav {
   margin: 10px;
 }
 
+.footer-paragraf {
+  font-size: 12px;
+  background: #eaf6f6;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -107,7 +119,13 @@ nav {
   font-size: 28px;
   text-decoration: none;
 }
-
+.fa-brands {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: var(--fourth-color);
+  border: 1px solid var(--primary-color);
+}
 .email-link:hover {
   text-decoration: underline;
 }
