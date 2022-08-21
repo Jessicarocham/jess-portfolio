@@ -8,6 +8,7 @@
 
 body {
   margin: 0;
+  border: 40px solid #eaf6f6;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
@@ -79,11 +80,15 @@ nav {
 .contact-link {
   color: #66bfbf;
   text-decoration: none;
+  border: 1px solid #f76b8a;
+  padding: 10px 20px;
+  border-radius: 30px;
 }
 .contact-link:hover {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  border: none;
 }
 
 .about-link {
@@ -109,6 +114,7 @@ nav {
 .footer-paragraf {
   font-size: 12px;
   background: #eaf6f6;
+  border: none;
 }
 .email-link {
   display: flex;
@@ -162,5 +168,9 @@ nav {
     display: block;
     margin: auto;
     text-align: center;
+  }
+
+  .container img {
+    display: none;
   }
 }
