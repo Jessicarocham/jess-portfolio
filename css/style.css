@@ -93,6 +93,14 @@ nav {
   color: white;
   border: none;
 }
+.img-section {
+  padding: 0 80px;
+  text-align: center;
+}
+
+.img-section img {
+  margin: 20px 0 40px;
+}
 
 .about-link {
   color: var(--primary-color);
