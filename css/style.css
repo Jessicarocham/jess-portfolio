@@ -132,6 +132,14 @@ nav {
   padding: 0 10px;
 }
 
+.certificate-img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+}
+
 .footer-paragraf {
   font-size: 12px;
   background: #eaf6f6;
