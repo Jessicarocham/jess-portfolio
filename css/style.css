@@ -124,6 +124,7 @@ nav {
 .about-photo {
   max-width: 300px;
   border-radius: 100%;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
 }
 
 .icon-img {
@@ -132,6 +133,10 @@ nav {
   padding: 0 10px;
 }
 
+.projects-link {
+  color: #f76b8a;
+  text-decoration: none;
+}
 .certificate-img {
   display: block;
   margin: 0 auto;
