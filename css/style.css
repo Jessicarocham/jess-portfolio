@@ -121,6 +121,16 @@ nav {
 .about-paragraphs p {
   margin: 10px;
 }
+.about-photo {
+  max-width: 300px;
+  border-radius: 100%;
+}
+
+.icon-img {
+  width: 80px;
+  margin: 0 30px;
+  padding: 0 10px;
+}
 
 .footer-paragraf {
   font-size: 12px;
