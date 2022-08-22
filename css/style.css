@@ -47,7 +47,7 @@ p {
 }
 
 img {
-  max-width: 100‰;
+  max-width: 100%;
   height: auto;
 }
 nav {
@@ -137,8 +137,14 @@ nav {
   text-decoration: underline;
 }
 .introduction {
-  border: 1px solid #f76b8a;
+  border: 1px;
   border-radius: 30px;
+  padding: 5px 15px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(146, 221, 219) 31.2%,
+    rgb(236, 167, 219) 90.9%
+  );
 }
 .primary-link {
   border-radius: 4px;
@@ -148,6 +154,9 @@ nav {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 .row {
   --bs-gutter-x: 1.5rem;
