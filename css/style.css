@@ -217,4 +217,10 @@ nav {
   .container img {
     display: none;
   }
+
+  .about-photo {
+    width: 200;
+    border-radius: 100%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+  }
 }
