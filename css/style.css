@@ -86,6 +86,22 @@ nav {
   border: 1px solid #f76b8a;
   padding: 10px 20px;
   border-radius: 30px;
+  text-align: center;
+}
+.contact-link-index {
+  color: #66bfbf;
+  text-decoration: none;
+  border: 1px solid #f76b8a;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-align: center;
+  display: block;
+}
+.contact-link-index:hover {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: none;
 }
 .contact-link:hover {
   background: var(--primary-color);
@@ -164,6 +180,7 @@ nav {
   color: var(--fourth-color);
   border: 1px solid var(--primary-color);
 }
+
 .email-link:hover {
   text-decoration: underline;
 }
