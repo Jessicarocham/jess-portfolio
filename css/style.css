@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  border-top: 70px solid #eaf6f6;
+  border-top: 60px solid #eaf6f6;
   border-left: 30px solid #eaf6f6;
   border-right: 30px solid #eaf6f6;
   border-bottom: 30px solid #eaf6f6;
@@ -185,9 +185,8 @@ nav {
   text-decoration: underline;
 }
 .introduction {
-  border: 1px;
   border-radius: 30px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   background: linear-gradient(
     179.4deg,
     rgb(146, 221, 219) 31.2%,
@@ -239,5 +238,10 @@ nav {
     width: 200;
     border-radius: 100%;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+  }
+  .contact-link-index {
+    display: block;
+    margin: auto;
+    text-align: center;
   }
 }
