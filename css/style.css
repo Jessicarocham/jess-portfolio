@@ -12,7 +12,7 @@ body {
   border-left: 30px solid #eaf6f6;
   border-right: 30px solid #eaf6f6;
   border-bottom: 30px solid #eaf6f6;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Merriweather", serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -26,17 +26,20 @@ h1 {
   font-size: 96px;
   text-align: center;
   margin-top: 100px;
+  font-family: Sacramento;
 }
 
 h2 {
   font-size: 48px;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 p {
   padding: 20px;
@@ -54,18 +57,23 @@ nav {
   background: #eaf6f6;
 }
 
+.my-name {
+  font-size: 60px;
+}
 .about-h1 {
-  margin-top: 100px;
+  margin: 100px;
+  font-size: 80px;
 }
 .icon-hi {
   margin-top: 100px;
 }
 .projects-h1 {
   margin-top: 100px;
+  font-size: 80px;
 }
-.h2-contact {
+.h1-contact {
   margin-top: 100px;
-  font-size: 40px;
+  font-size: 80px;
 }
 .navigation-links {
   display: flex;
@@ -138,7 +146,7 @@ nav {
   margin: 10px;
 }
 .about-photo {
-  max-width: 75%;
+  width: 300px;
   border-radius: 100%;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
 }
@@ -215,6 +223,10 @@ nav {
 }
 
 @media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
   h2 {
     font-size: 30px;
     text-align: center;
@@ -235,7 +247,7 @@ nav {
   }
 
   .about-photo {
-    width: 250px;
+    max-width: 100px;
     border-radius: 100%;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
   }
@@ -243,5 +255,8 @@ nav {
     display: block;
     margin: auto;
     text-align: center;
+  }
+  .icon-img {
+    display: none;
   }
 }
