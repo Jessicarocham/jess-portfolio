@@ -195,11 +195,7 @@ nav {
 .introduction {
   border-radius: 30px;
   padding: 5px 10px;
-  background: linear-gradient(
-    179.4deg,
-    rgb(146, 221, 219) 31.2%,
-    rgb(236, 167, 219) 90.9%
-  );
+  background-color: #eaf6f6;
 }
 .primary-link {
   border-radius: 4px;
