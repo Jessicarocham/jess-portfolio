@@ -57,11 +57,16 @@ nav {
   background: #eaf6f6;
 }
 
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
 .my-name {
   font-size: 60px;
 }
 .about-h1 {
-  margin: 100px;
+  margin-top: 100px;
   font-size: 80px;
 }
 .icon-hi {
@@ -230,6 +235,11 @@ nav {
   h3 {
     font-size: 20px;
     text-align: center;
+  }
+
+  .introduction {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .mt-5 {
